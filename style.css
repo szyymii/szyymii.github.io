@@ -1,0 +1,63 @@
+*{
+    font-family: "Geist Mono", monospace;
+    font-weight: 400px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    background: #3b4252;
+    display: flex;
+    flex-direction: column; /* Ensures the content is stacked */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+}
+
+nav{
+    border-radius: 15px;
+    background-color: #2e3440;
+    position: sticky;
+    left: 43%;
+    top: 5px;
+    border: #d8dee9 dashed 1px;
+
+}
+
+button{
+    background-color: #2e3440;
+    color: #d8dee9;
+    border-style: none;
+    margin: 10px;
+}
+
+.main{
+    color: #d8dee9;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.html, .css, .js, .python, .cplus, .mysql{
+    width: 150px;
+    height: 50px;
+    background-color: #2e3440;
+    border-radius: 5px;
+    border: #d8dee9 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: center; /* Ensures columns are centered horizontally */
+    gap: 40px; /* Space between the two columns */
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between icons in a column */
+}

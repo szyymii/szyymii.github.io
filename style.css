@@ -4,6 +4,7 @@
 }
 html {
     background-image: url(image.jpg);
+    background-size: cover;
     scroll-behavior: smooth;
 }
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 html, body {
-    overflow: hidden; /* Add this line to block scrolling */
+    overflow: hidden; 
 }
 
 
@@ -35,7 +36,7 @@ button {
     border-style: none;
     margin: 10px;
     transition: transform 0.3s ease; 
-    display: inline-block; /* Add this line */
+    display: inline-block; 
 }
 
 button:hover {
@@ -94,4 +95,34 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 20px; 
+}
+
+#Contact {
+    margin-left: 23%;
+    margin-right: 50%;
+    position: absolute;
+    top: 300vh;
+    
+}
+
+.Discord, .Instagram, .Youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;   
+    transition: transform 0.3s ease; 
+}
+.Discord:hover, .Instagram:hover, .Youtube:hover {
+    transform: scale(1.2); 
+}
+
+a {
+    text-decoration: none;
+    color: #d8dee9;
 }

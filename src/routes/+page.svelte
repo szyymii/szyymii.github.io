@@ -153,13 +153,13 @@
                     icon={IconBrandGithub} 
                     name="GitHub" 
                     color="#FFFFFF" 
-                    href="https://github.com/twoj-nick" 
+                    href="https://github.comszyymii" 
                 />
                 <ContactCard 
                     icon={IconBrandX} 
                     name="X / Twitter" 
                     color="#E7E9EA" 
-                    href="https://x.com/twoj-nick" 
+                    href="https://x.com/Hanakokunek" 
                 />
             </div>
 
@@ -168,7 +168,7 @@
                     icon={IconMail} 
                     name="Email" 
                     color="#FFB86C" 
-                    href="mailto:szymon@twoja-domena.pl" 
+                    href="mailto:szymondskag@gmail.com" 
                 />
             </div>
             
